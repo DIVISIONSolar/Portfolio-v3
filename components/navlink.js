@@ -2,17 +2,16 @@ import React from 'react'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 
-const NavLink = ({ href, children }) => {
+const NavLink = ({ href, text }) => {
     const router = useRouter()
 
-    let className = children.props.className || ''
-    if (router.pathname === href) {
-        className = `${className} text-white`
-    } else {
-        className = `${className} text-gray-400`
-    }
+    let childClassName = (router.pathname === href) ? 'text-white' : 'text-gray-400';
 
-    return <Link href={href}>{React.cloneElement(children, { className })}</Link>
+    return (
+        <Link href={href}>
+            <span className={childClassName}>{text}</span>
+        </Link>
+    );
 }
 
 export default NavLink

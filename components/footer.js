@@ -24,9 +24,7 @@ export default function Footer() {
                 <p className="text-xl">
                     © {RomanNumerals(new Date().getFullYear())}
                     {" "}
-                    <Link href="/">
                         <a>Robert S.</a>
-                    </Link>
                 </p>
                 <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start gap-x-4 md:gap-2.5">
                     <a href="mailto:admin@robert-s.dev" className="text-gray-400">
