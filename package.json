@@ -4,7 +4,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "export": "next export"
+    "export": "next export",
+    "cfpages": "npm run build && npm start"
   },
   "dependencies": {
     "framer-motion": "^7.10.3",
