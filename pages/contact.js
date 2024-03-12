@@ -29,18 +29,18 @@ export default function Contact() {
                                     Contact <span className="text-rose-500">me</span>
                                 </h1>
                                 <p className="text-gray-200 text-lg font-medium px-4">
-                                    Want to get in touch, or just want to have a chat? Well, here's your chance! (╹◡╹)
+                                    Want to get in touch, or just want to have a chat? 
                                 </p>
                             </div>
                             <div className="mx-auto overflow-auto mt-4">
                                 <div className="grid gap-8 px-4 md:px-0 grid-cols-1 md:grid-cols-2 xl:grid-cols-3">
-                                    <a href="mailto:admin@robert-s.dev" className="bg-gray-800 text-white p-4 text-center rounded space-y-0.5">
+                                    <a href="mailto:me@joshsevero.dev" className="bg-gray-800 text-white p-4 text-center rounded space-y-0.5">
                                         <Mail className="mx-auto max-h-12" size={48}>
                                             <title>Email</title>
                                         </Mail>
-                                        <p className="text-white text-xl overflow-ellipsis">admin@robert-s.dev</p>
+                                        <p className="text-white text-xl overflow-ellipsis">me@joshsevero.dev</p>
                                     </a>
-                                    <a href="https://github.com/Wallvon" className="bg-gray-800 text-white p-4 text-center rounded space-y-0.5" target="_blank" rel="noopener noreferrer">
+                                    <a href="https://git.joshseveros.cloud/JoshS" className="bg-gray-800 text-white p-4 text-center rounded space-y-0.5" target="_blank" rel="noopener noreferrer">
                                         <svg
                                             fill="currentColor"
                                             className="mx-auto max-h-12"
@@ -49,7 +49,7 @@ export default function Contact() {
                                             <title>{siGithub.title}</title>
                                             <path d={siGithub.path} />
                                         </svg>
-                                        <p className="text-white text-xl overflow-ellipsis">Wallvon</p>
+                                        <p className="text-white text-xl overflow-ellipsis">JoshS</p>
                                     </a>
                                     <button onClick={handleDiscordClick} className="bg-gray-800 text-white p-4 text-center rounded space-y-0.5 has-tooltip hover:text-rose-600 duration-200">
                                         <svg
@@ -61,15 +61,15 @@ export default function Contact() {
                                             <path d={siDiscord.path} />
                                         </svg>
                                         <span className='tooltip bg-gray-800 text-white rounded shadow-lg'>{discordText}</span>
-                                        <p className="text-white text-xl overflow-ellipsis">Roberto#1762</p>
+                                        <p className="text-white text-xl overflow-ellipsis">DIVISIONSolar</p>
                                     </button>
-                                    <a href="https://www.linkedin.com/in/robert-stokreef/" className="bg-gray-800 text-white p-4 text-center rounded space-y-0.5" target="_blank" rel="noopener noreferrer">
+                                    <a href="https://joshsevero.dev/linkedin" className="bg-gray-800 text-white p-4 text-center rounded space-y-0.5" target="_blank" rel="noopener noreferrer">
                                         <Linkedin fill="currentColor" strokeWidth="0" className="mx-auto max-h-12" size={48}>
                                             <title>Linkedin</title>
                                         </Linkedin>
-                                        <p className="text-white text-xl overflow-ellipsis">Robert Stokreef</p>
+                                        <p className="text-white text-xl overflow-ellipsis">Josh Severo</p>
                                     </a>
-                                    <a href="https://twitter.com/ThatGuy5275" className="bg-gray-800 text-white p-4 text-center rounded space-y-0.5" target="_blank" rel="noopener noreferrer">
+                                    <a href="" className="bg-gray-800 text-white p-4 text-center rounded space-y-0.5" target="_blank" rel="noopener noreferrer">
                                         <svg
                                             fill="currentColor"
                                             className="mx-auto max-h-12"
@@ -78,9 +78,9 @@ export default function Contact() {
                                             <title>{siTwitter.title}</title>
                                             <path d={siTwitter.path} />
                                         </svg>
-                                        <p className="text-white text-xl overflow-ellipsis">ThatGuy5275</p>
+                                        <p className="text-white text-xl overflow-ellipsis"></p>
                                     </a>
-                                    <a href="https://instagram.com/robert.__.s" className="bg-gray-800 text-white p-4 text-center rounded space-y-0.5" target="_blank" rel="noopener noreferrer">
+                                    <a href="" className="bg-gray-800 text-white p-4 text-center rounded space-y-0.5" target="_blank" rel="noopener noreferrer">
                                         <svg
                                             fill="currentColor"
                                             className="mx-auto max-h-12"
@@ -89,7 +89,7 @@ export default function Contact() {
                                             <title>{siInstagram.title}</title>
                                             <path d={siInstagram.path} />
                                         </svg>
-                                        <p className="text-white text-xl overflow-ellipsis">robert.__.s</p>
+                                        <p className="text-white text-xl overflow-ellipsis"></p>
                                     </a>
                                 </div>
                             </div>

@@ -15,7 +15,7 @@ export default function Navbar() {
                 <div className="flex">
                     <Link href="/">
                         <span className="flex font-medium items-center mb-4 md:mb-0 cursor-pointer">
-                            <span className="text-2xl font-bold duration-200">Robert S.</span>
+                            <span className="text-2xl font-bold duration-200">Josh S.</span>
                         </span>
                     </Link>
                     <button
@@ -48,6 +48,7 @@ export default function Navbar() {
                     <NavLink href="/work" text="Work" />
                     <NavLink href="/about" text="About" />
                     <NavLink href="/contact" text="Contact" />
+                    <NavLink href="/donate" text="Donate" />
                 </div>
             </nav>
         </>

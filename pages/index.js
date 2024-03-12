@@ -9,7 +9,7 @@ export default function Home() {
                 <div className="container flex mx-auto justify-center">
                     <motion.div initial={{ opacity: 0 }} animate={{ opacity: [0, 1] }} transition={{ duration: 0.5 }}>
                         <h1 className="md:text-6xl text-3xl font-bold">
-                          Hi there, I'm <span className="text-rose-500">Robert S.</span>
+                          Hi there, I'm <span className="text-rose-500">Josh S.</span>
                         </h1>
                         <p className="text-gray-200 text-lg font-medium">
                             Developer & Tech enthusiast
