@@ -17,30 +17,20 @@ export default function Work() {
                                 </p>
                             </div>
                             <div className="relative w-11/12 mx-auto overflow-auto">
-                                <div className="absolute h-full w-full p-20 z-20">
-                                    <div className="flex items-center justify-center h-full w-full p-4">
-                                        <div className="text-center space-y-1">
-                                            <h1 className="md:text-6xl text-3xl font-bold text-center">
-                                                Coming soon
-                                            </h1>
-                                            <p className="text-gray-200 italic text-lg">I should work on something, shouldn't I? ⚆ _ ⚆</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="w-full grid gap-20 grid-cols-1 md:grid-cols-2 blur md:p-16 p-4">
+                                <div className="w-full grid gap-20 grid-cols-1 md:grid-cols-2 md:p-16 p-4">
                                     <div className="flex-grow space-y-2">
-                                        <h1 className="text-3xl font-bold">Lorem Ipsum</h1>
+                                        <h1 className="text-3xl font-bold">Revela Network</h1>
                                         <p className="text-gray-400 py- text-justify">
-                                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+                                        A highly sophisticated proxy used for evading internet censorship or accessing websites in a controlled sandbox using the power of service-workers. Works by intercepting HTTP requests with a service worker script that follows the TompHTTP specifications.
                                         </p>
                                         <div className="flex space-x-2">
-                                            <a className="rounded-full" href="#" target="_blank">
+                                            <a className="rounded-full" href="https://git.joshseveros.cloud/RevelaNetwork" target="_blank">
                                                 <svg className="h-8 w-8" fill="#fff" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                     <title>GitHub</title>
                                                     <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
                                                 </svg>
                                             </a>
-                                            <a className="rounded-full" href="#" target="_blank">
+                                            <a className="rounded-full" href="https://revela.network" target="_blank">
                                                 <svg className="h-8 w-8" fill="#fff" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                     <title>Link</title>
                                                     <path d="M14.8284 12L16.2426 13.4142L19.071 10.5858C20.6331 9.02365 20.6331 6.49099 19.071 4.9289C17.509 3.3668 14.9763 3.3668 13.4142 4.9289L10.5858 7.75732L12 9.17154L14.8284 6.34311C15.6095 5.56206 16.8758 5.56206 17.6568 6.34311C18.4379 7.12416 18.4379 8.39049 17.6568 9.17154L14.8284 12Z" />
@@ -51,18 +41,18 @@ export default function Work() {
                                         </div>
                                     </div>
                                     <div className="flex-grow space-y-2">
-                                        <h1 className="text-3xl font-bold">Lorem Ipsum</h1>
+                                        <h1 className="text-3xl font-bold">Project Equinox</h1>
                                         <p className="text-gray-400 py- text-justify">
-                                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+                                        Introducing a next gen Discord bot with advanced moderation, music, games, memes, weather info, IP lookup, and more! (Currently in alpha testing!)
                                         </p>
                                         <div className="flex space-x-2">
-                                            <a className="rounded-full" href="#" target="_blank">
+                                            <a className="rounded-full" href="https://git.joshseveros.cloud/JoshS/Project-Equinox" target="_blank">
                                                 <svg className="h-8 w-8" fill="#fff" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                     <title>GitHub</title>
                                                     <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
                                                 </svg>
                                             </a>
-                                            <a className="rounded-full" href="#" target="_blank">
+                                            <a className="rounded-full" href="https://equinox.joshsevero.dev" target="_blank">
                                                 <svg className="h-8 w-8" fill="#fff" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                     <title>Link</title>
                                                     <path d="M14.8284 12L16.2426 13.4142L19.071 10.5858C20.6331 9.02365 20.6331 6.49099 19.071 4.9289C17.509 3.3668 14.9763 3.3668 13.4142 4.9289L10.5858 7.75732L12 9.17154L14.8284 6.34311C15.6095 5.56206 16.8758 5.56206 17.6568 6.34311C18.4379 7.12416 18.4379 8.39049 17.6568 9.17154L14.8284 12Z" />
