@@ -6,7 +6,7 @@ export default function Layout({
   children,
   title = '',
                                }) {
-  title = `${title && `${title} —`} Josh S.`
+  title = `Josh S.`
   return (
       <>
           <Head>
@@ -16,13 +16,13 @@ export default function Layout({
               <meta name="keywords" content="HTML,CSS,JavaScript,Tailwind,TailwindCSS,Bootstrap" />
               <meta name="author" content="Josh Severo" />
               <link rel="icon" href="/favicon.ico" />
-              <meta property="og:title" content={`Josh S.${title && ` - ${title}`}`} />
+              <meta property="og:title" content={`Josh S.`} />
               <meta property="og:description" content="A developer and tech enthusiast from the United States." />
               <meta property="og:image" content="https://joshsevero.dev/logo.webp" />
               <meta name="theme-color" content="#F43F5E" />
               <meta name="twitter:card" content="summary_large_image" />
               {/* <meta name="twitter:site" content="@ThatGuy5275" /> */}
-              <meta name="twitter:title" content={`Josh S.${title && ` - ${title}`}`} />
+              <meta name="twitter:title" content={`Josh S.`} />
               <meta name="twitter:description" content="A developer and tech enthusiast from the United States."/>
               <meta name="twitter:image" content="https://joshsevero.dev/logo.webp"/>
           </Head>
