@@ -21,8 +21,7 @@ export default function About() {
                                             I can use the following languages fluently:
                                         </p>
                                         <div className="grid grid-cols-2 grid-rows-3 md:grid-cols-3 md:grid-rows-2 lg:grid-rows-1 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6">
-                                            {/* <img alt="Python" src="https://img.shields.io/badge/-Python-18181b?style=for-the-badge&logo=python&logoColor=F43F5E" />
-                                            <img alt="SQL" src="https://img.shields.io/badge/-SQL-18181b?style=for-the-badge&logo=postgresql&logoColor=F43F5E" /> */}
+                                            {/* <img alt="SQL" src="https://img.shields.io/badge/-SQL-18181b?style=for-the-badge&logo=postgresql&logoColor=F43F5E" /> */}
                                             <img alt="Javascript" src="https://img.shields.io/badge/-Javascript-18181b?style=for-the-badge&logo=javascript&logoColor=F43F5E" />
                                             <img alt="Typescript" src="https://img.shields.io/badge/-Typescript-18181b?style=for-the-badge&logo=typescript&logoColor=F43F5E" />
                                             <img alt="HTML5" src="https://img.shields.io/badge/-HTML5-18181b?style=for-the-badge&logo=html5&logoColor=F43F5E" />
@@ -38,7 +37,6 @@ export default function About() {
                                             <img alt="Flask" src="https://img.shields.io/badge/-Flask-18181b?style=for-the-badge&logo=flask&logoColor=F43F5E" />
                                             <img alt="Falcon" src="https://img.shields.io/badge/-Falcon-18181b?style=for-the-badge&logo=falcon&logoColor=F43F5E" /> */}
                                             <img alt="React" src="https://img.shields.io/badge/-React-18181b?style=for-the-badge&logo=react&logoColor=F43F5E" />
-                                            <img alt="Next.js" src="https://img.shields.io/badge/-Next.js-18181b?style=for-the-badge&logo=next.js&logoColor=F43F5E" />
                                             {/* <img alt="Alpine.js" src="https://img.shields.io/badge/-Alpine.js-18181b?style=for-the-badge&logo=alpine.js&logoColor=F43F5E" />
                                             <img alt="Prisma" src="https://img.shields.io/badge/-Prisma-18181b?style=for-the-badge&logo=prisma&logoColor=F43F5E" /> */}
                                         </div>
@@ -58,6 +56,8 @@ export default function About() {
                                             <img alt="Go" src="https://img.shields.io/badge/-Go-18181b?style=for-the-badge&logo=go&logoColor=F43F5E" />
                                             {/* <img alt="Rust" src="https://img.shields.io/badge/-Rust-18181b?style=for-the-badge&logo=rust&logoColor=F43F5E" /> */}
                                             <img alt="Docker" src="https://img.shields.io/badge/-Docker-18181b?style=for-the-badge&logo=docker&logoColor=F43F5E" />
+                                            <img alt="Next.js" src="https://img.shields.io/badge/-Next.js-18181b?style=for-the-badge&logo=next.js&logoColor=F43F5E" />
+                                            <img alt="Python" src="https://img.shields.io/badge/-Python-18181b?style=for-the-badge&logo=python&logoColor=F43F5E" />
                                         </div>
                                     </div>
                                 </div>
