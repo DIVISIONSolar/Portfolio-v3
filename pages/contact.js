@@ -5,11 +5,11 @@ import { siGithub, siDiscord, siTwitter, siInstagram } from 'simple-icons/icons'
 import { Linkedin, Mail } from 'lucide-react';
 
 export default function Contact() {
-    const initialDiscordText = 'Roberto#1762';
+    const initialDiscordText = 'DIVISIONSolar';
     const [discordText, setDiscordText] = useState(initialDiscordText);
 
     function handleDiscordClick() {
-        navigator.clipboard.writeText("Roberto#1762").then(r => {
+        navigator.clipboard.writeText("DIVISIONSolar").then(r => {
             setDiscordText('Copied to clipboard!');
 
             setTimeout(() => {
