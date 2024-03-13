@@ -18,7 +18,7 @@ export default function About() {
                                     </p>
                                     <div className="space-y-2">
                                         <p>
-                                            I can use the following languages fluently:
+                                            I can use the following languages somewhat fluently:
                                         </p>
                                         <div className="grid grid-cols-2 grid-rows-3 md:grid-cols-3 md:grid-rows-2 lg:grid-rows-1 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6">
                                             {/* <img alt="SQL" src="https://img.shields.io/badge/-SQL-18181b?style=for-the-badge&logo=postgresql&logoColor=F43F5E" /> */}
@@ -28,7 +28,7 @@ export default function About() {
                                             <img alt="CSS3" src="https://img.shields.io/badge/-CSS3-18181b?style=for-the-badge&logo=css3&logoColor=F43F5E" />
                                         </div>
                                         <p>
-                                            I can use the following frameworks and libraries fluently:
+                                            I can use the following frameworks and libraries somewhat fluently:
                                         </p>
                                         <div className="grid grid-cols-2 grid-rows-3 md:grid-cols-3 md:grid-rows-2 lg:grid-rows-1 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6">
                                             <img alt="Tailwind CSS" src="https://img.shields.io/badge/-Tailwind CSS-18181b?style=for-the-badge&logo=tailwindcss&logoColor=F43F5E" />
