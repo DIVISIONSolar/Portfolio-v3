@@ -63,7 +63,7 @@ export default function Contact() {
                                         <span className='tooltip bg-gray-800 text-white rounded shadow-lg'>{discordText}</span>
                                         <p className="text-white text-xl overflow-ellipsis">DIVISIONSolar</p>
                                     </button>
-                                    <a href="https://joshsevero.dev/linkedin" className="bg-gray-800 text-white p-4 text-center rounded space-y-0.5" target="_blank" rel="noopener noreferrer">
+                                    <a href="https://joshs.pro/linkedin" className="bg-gray-800 text-white p-4 text-center rounded space-y-0.5" target="_blank" rel="noopener noreferrer">
                                         <Linkedin fill="currentColor" strokeWidth="0" className="mx-auto max-h-12" size={48}>
                                             <title>Linkedin</title>
                                         </Linkedin>
