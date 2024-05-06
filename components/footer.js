@@ -52,7 +52,7 @@ export default function Footer() {
                         </svg>
                         <span className='tooltip bg-gray-800 text-white rounded shadow-lg p-1 -mt-14'>{discordText}</span>
                     </button>
-                    <a href="https://joshsevero.dev/linkedin" className="text-gray-400" target="_blank" rel="noopener noreferrer">
+                    <a href="https://joshs.pro/linkedin" className="text-gray-400" target="_blank" rel="noopener noreferrer">
                         <Linkedin fill="currentColor" strokeWidth="0" className="w-5 h-5">
                             <title>Linkedin</title>
                         </Linkedin>

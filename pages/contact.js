@@ -69,7 +69,7 @@ export default function Contact() {
                                         </Linkedin>
                                         <p className="text-white text-xl overflow-ellipsis">Josh Severo</p>
                                     </a>
-                                    <a href="" className="bg-gray-800 text-white p-4 text-center rounded space-y-0.5" target="_blank" rel="noopener noreferrer">
+                                    {/* <a href="" className="bg-gray-800 text-white p-4 text-center rounded space-y-0.5" target="_blank" rel="noopener noreferrer">
                                         <svg
                                             fill="currentColor"
                                             className="mx-auto max-h-12"
@@ -90,7 +90,7 @@ export default function Contact() {
                                             <path d={siInstagram.path} />
                                         </svg>
                                         <p className="text-white text-xl overflow-ellipsis"></p>
-                                    </a>
+                                    </a> */}
                                 </div>
                             </div>
                         </motion.div>
