@@ -48,7 +48,7 @@ export default function Navbar() {
                     <NavLink href="/work" text="Work" />
                     <NavLink href="/about" text="About" />
                     <NavLink href="/contact" text="Contact" />
-                    <NavLink href="/donate" text="Donate" />
+                    {/* <NavLink href="/donate" text="Donate" /> */}
                     <NavLink href="/certifications" text="Certifications" />
                 </div>
             </nav>
