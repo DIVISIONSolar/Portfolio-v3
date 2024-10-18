@@ -67,7 +67,7 @@ export default function Certifications() {
                                         </div>
                                     </div>
                                     <div className="flex-grow space-y-2">
-                                        <h1 className="text-3xl font-bold">Microsoft Office Specialist</h1>
+                                        <h1 className="text-3xl font-bold">Microsoft Office Specialist (Associate)</h1>
                                         <p className="text-gray-400 py- text-justify">
                                         A Microsoft Office Specialist Word Associate in Microsoft 365 Apps is certified in using Microsoft Word. They demonstrate proficiency in creating, managing, and formatting documents, as well as collaborating with others using Word features. This certification validates essential Word skills for productivity in a professional setting.
                                         </p>
@@ -91,7 +91,7 @@ export default function Certifications() {
                                         </div>
                                     </div>
                                     <div className="flex-grow space-y-2">
-                                        <h1 className="text-3xl font-bold">Microsoft Office Specialist</h1>
+                                        <h1 className="text-3xl font-bold">Microsoft Office Specialist (Expert)</h1>
                                         <p className="text-gray-400 py- text-justify">
                                         A Microsoft Office Specialist Word Expert in Microsoft 365 Apps is certified in using Microsoft Word. They demonstrate proficiency in creating, managing, and formatting documents, as well as collaborating with others using Word features. This certification validates essential Word skills for productivity in a professional setting.
                                         </p>
