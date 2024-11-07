@@ -139,6 +139,7 @@ export default function Certifications() {
                                         </div>
                                 </div>
                             </div>
+                            </div>
                         </motion.div>
                     </div>
                 </div>
