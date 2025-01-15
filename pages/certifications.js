@@ -160,6 +160,7 @@ export default function Certifications() {
                                                 </svg>
                                             </a> */}
                                         </div>
+                                    </div>
                                 </div>
                             </div>
                             </div>
