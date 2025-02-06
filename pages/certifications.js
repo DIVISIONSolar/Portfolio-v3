@@ -215,22 +215,23 @@ export default function Certifications() {
                   </div>
                   <div className="flex-grow space-y-2">
                     <h1 className="text-3xl font-bold">
-                      TestOut IT Fundamentals Pro
+                      Information Technology Specialist in Networking
                     </h1>
                     <p className="text-gray-400 py- text-justify">
-                      This exam tests your foundational knowledge and ability to
-                      perform real-world tasks using operating systems, common
-                      PC hardware and software, basic networking, databases,
-                      programming, security, and information systems. The exam
-                      covers content that is taught in the TestOut IT
-                      Fundamentals Pro course. Students should have completed
-                      this course (or its equivalent) before attempting this
-                      exam.
+                      An Information Technology Specialist in Networking for
+                      Certiport is certified in the installation, configuration,
+                      and management of network systems. They demonstrate
+                      proficiency in troubleshooting, optimizing, and securing
+                      networks, ensuring efficient communication and
+                      connectivity within an organization. This certification
+                      validates essential networking skills, providing
+                      foundational knowledge for managing and supporting modern
+                      IT infrastructure.
                     </p>
                     <div className="flex space-x-2">
                       <a
                         className="rounded-full"
-                        href="https://cdn.joshsevero.dev/Static/Portfolio/Certifications/TestOut_IT_Fundamentals_Pro.pdf"
+                        href="https://cdn.joshsevero.dev/Static/Portfolio/Certifications/Certiport_Information_Technology_Specialist_in_Networking.pdf"
                         target="_blank"
                       >
                         <svg
