@@ -1,6 +1,6 @@
 ![GitHub](https://img.shields.io/github/license/Wallvon/website?color=A42E2B&logo=gnu&logoColor=white&style=for-the-badge)
 
-# Website by Robert S.
+# Website by Josh S.
 
 A new portfolio I made with Next.js and TailwindCSS. I did not use any design tool (like Figma) to make this since I honestly suck at design.
 
@@ -50,8 +50,3 @@ A new portfolio I made with Next.js and TailwindCSS. I did not use any design to
     </td>
   </tr>
 </table>
-
-
-## License
-
-See [LICENSE.MD](https://github.com/Wallvon/website/blob/master/LICENSE.md).

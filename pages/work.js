@@ -11,104 +11,184 @@ export default function Work() {
               initial={{ opacity: 0 }}
               animate={{ opacity: [0, 1] }}
               transition={{ duration: 0.5 }}
+              className="w-full"
             >
-              <div className="text-center">
+              {/* HEADER */}
+              <div className="text-center mb-12">
                 <h1 className="md:text-6xl text-3xl font-bold">
-                  My <span className="text-rose-500">work</span>
+                  My <span className="text-rose-500">Work</span>
                 </h1>
-                <p className="text-gray-200 text-lg font-medium px-4">
-                  Featured & recent projects
+                <p className="text-gray-400 text-lg font-medium">
+                  Professional experience & projects
                 </p>
               </div>
-              <div className="relative w-11/12 mx-auto overflow-auto">
-                <div className="w-full grid gap-20 grid-cols-1 md:grid-cols-2 md:p-16 p-4">
-                  <div className="flex-grow space-y-2">
-                    <h1 className="text-3xl font-bold">Revela Network</h1>
-                    <p className="text-gray-400 py- text-justify">
-                      A highly sophisticated proxy used for evading internet
-                      censorship or accessing websites in a controlled sandbox
-                      using the power of service-workers. Works by intercepting
-                      HTTP requests with a service worker script that follows
-                      the TompHTTP specifications.
-                    </p>
-                    <div className="flex space-x-2">
-                      <a
-                        className="rounded-full"
-                        href="https://git.joshseveros.cloud/RevelaNetwork"
-                        target="_blank"
-                      >
-                        <svg
-                          className="h-8 w-8"
-                          fill="#fff"
-                          viewBox="0 0 24 24"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <title>GitHub</title>
-                          <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
-                        </svg>
-                      </a>
-                      <a
-                        className="rounded-full"
-                        href="https://revela.network"
-                        target="_blank"
-                      >
-                        <svg
-                          className="h-8 w-8"
-                          fill="#fff"
-                          viewBox="0 0 24 24"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <title>Link</title>
-                          <path d="M14.8284 12L16.2426 13.4142L19.071 10.5858C20.6331 9.02365 20.6331 6.49099 19.071 4.9289C17.509 3.3668 14.9763 3.3668 13.4142 4.9289L10.5858 7.75732L12 9.17154L14.8284 6.34311C15.6095 5.56206 16.8758 5.56206 17.6568 6.34311C18.4379 7.12416 18.4379 8.39049 17.6568 9.17154L14.8284 12Z" />
-                          <path d="M12 14.8285L13.4142 16.2427L10.5858 19.0711C9.02372 20.6332 6.49106 20.6332 4.92896 19.0711C3.36686 17.509 3.36686 14.9764 4.92896 13.4143L7.75739 10.5858L9.1716 12L6.34317 14.8285C5.56212 15.6095 5.56212 16.8758 6.34317 17.6569C7.12422 18.4379 8.39055 18.4379 9.1716 17.6569L12 14.8285Z" />
-                          <path d="M14.8285 10.5857C15.219 10.1952 15.219 9.56199 14.8285 9.17147C14.4379 8.78094 13.8048 8.78094 13.4142 9.17147L9.1716 13.4141C8.78107 13.8046 8.78107 14.4378 9.1716 14.8283C9.56212 15.2188 10.1953 15.2188 10.5858 14.8283L14.8285 10.5857Z" />
-                        </svg>
-                      </a>
+
+              <div className="w-11/12 mx-auto space-y-14">
+
+                {/* WORK EXPERIENCE */}
+                <section>
+                  <h2 className="text-3xl font-bold mb-6">
+                    Work <span className="text-rose-500">Experience</span>
+                  </h2>
+
+                  <div className="space-y-10">
+
+                    {/* AJAX NETWORKS */}
+                    <div>
+                      <div className="flex justify-between flex-wrap mb-1">
+                        <h3 className="text-xl font-semibold">
+                          Ajax Networks, LLC
+                        </h3>
+                        <span className="text-gray-400">
+                          February 2026 – Present
+                        </span>
+                      </div>
+
+                      <p className="text-gray-300 font-medium mb-3">
+                        Chief Networking Officer (CNO)
+                      </p>
+
+                      <ul className="list-disc list-inside text-gray-400 space-y-1">
+                        <li>
+                          Lead network architecture design including BGP
+                          routing, VPN infrastructure, and multi-WAN failover
+                        </li>
+                        <li>
+                          Oversee infrastructure scalability, uptime monitoring,
+                          and performance optimization
+                        </li>
+                        <li>
+                          Implement firewall policies, traffic engineering
+                          strategies, and security controls
+                        </li>
+                        <li>
+                          Coordinate DDoS mitigation planning and incident
+                          response procedures
+                        </li>
+                        <li>
+                          Provide on-call operational support and oversee
+                          network reliability initiatives
+                        </li>
+                      </ul>
                     </div>
-                  </div>
-                  <div className="flex-grow space-y-2">
-                    <h1 className="text-3xl font-bold">Project Equinox</h1>
-                    <p className="text-gray-400 py- text-justify">
-                      Introducing a next gen Discord bot with advanced
-                      moderation, music, games, memes, weather info, IP lookup,
-                      and more! (Currently in alpha testing!)
-                    </p>
-                    <div className="flex space-x-2">
-                      <a
-                        className="rounded-full"
-                        href="https://git.joshseveros.cloud/JoshS/Project-Equinox"
-                        target="_blank"
-                      >
-                        <svg
-                          className="h-8 w-8"
-                          fill="#fff"
-                          viewBox="0 0 24 24"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <title>GitHub</title>
-                          <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
-                        </svg>
-                      </a>
-                      <a
-                        className="rounded-full"
-                        href="https://equinox.joshsevero.dev"
-                        target="_blank"
-                      >
-                        <svg
-                          className="h-8 w-8"
-                          fill="#fff"
-                          viewBox="0 0 24 24"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <title>Link</title>
-                          <path d="M14.8284 12L16.2426 13.4142L19.071 10.5858C20.6331 9.02365 20.6331 6.49099 19.071 4.9289C17.509 3.3668 14.9763 3.3668 13.4142 4.9289L10.5858 7.75732L12 9.17154L14.8284 6.34311C15.6095 5.56206 16.8758 5.56206 17.6568 6.34311C18.4379 7.12416 18.4379 8.39049 17.6568 9.17154L14.8284 12Z" />
-                          <path d="M12 14.8285L13.4142 16.2427L10.5858 19.0711C9.02372 20.6332 6.49106 20.6332 4.92896 19.0711C3.36686 17.509 3.36686 14.9764 4.92896 13.4143L7.75739 10.5858L9.1716 12L6.34317 14.8285C5.56212 15.6095 5.56212 16.8758 6.34317 17.6569C7.12422 18.4379 8.39055 18.4379 9.1716 17.6569L12 14.8285Z" />
-                          <path d="M14.8285 10.5857C15.219 10.1952 15.219 9.56199 14.8285 9.17147C14.4379 8.78094 13.8048 8.78094 13.4142 9.17147L9.1716 13.4141C8.78107 13.8046 8.78107 14.4378 9.1716 14.8283C9.56212 15.2188 10.1953 15.2188 10.5858 14.8283L14.8285 10.5857Z" />
-                        </svg>
-                      </a>
+
+                    {/* SKYLINK */}
+                    <div>
+                      <div className="flex justify-between flex-wrap mb-1">
+                        <h3 className="text-xl font-semibold">
+                          Skylink Hosting LLC
+                        </h3>
+                        <span className="text-gray-400">
+                          November 2025 – February 2026
+                        </span>
+                      </div>
+
+                      <p className="text-gray-300 font-medium mb-3">
+                        Chief Executive Officer (CEO)
+                      </p>
+
+                      <ul className="list-disc list-inside text-gray-400 space-y-1">
+                        <li>
+                          Founded and operated a compute hosting company
+                          providing VPS, VDS, bare metal, and colocation
+                          services
+                        </li>
+                        <li>
+                          Directed infrastructure planning, hardware
+                          procurement, and deployment strategies
+                        </li>
+                        <li>
+                          Designed and implemented IPv4/IPv6 network
+                          architecture and routing policies
+                        </li>
+                        <li>
+                          Established Service Level Agreements (SLAs), uptime
+                          standards, and customer support workflows
+                        </li>
+                        <li>
+                          Oversaw pricing strategy, operational budgeting, and
+                          service expansion initiatives
+                        </li>
+                      </ul>
                     </div>
+
                   </div>
-                </div>
+                </section>
+
+                {/* PROJECTS */}
+                <section>
+                  <h2 className="text-3xl font-bold mb-8">
+                    Featured <span className="text-rose-500">Projects</span>
+                  </h2>
+
+                  <div className="grid gap-12 grid-cols-1 md:grid-cols-2">
+
+                    {/* REVELA */}
+                    <div className="space-y-3">
+                      <h3 className="text-2xl font-bold">Revela Network</h3>
+
+                      <p className="text-gray-400 text-justify">
+                        A sophisticated proxy designed for bypassing internet
+                        censorship and accessing websites in a controlled
+                        sandbox environment. It intercepts HTTP requests using
+                        service workers following the TompHTTP specification.
+                      </p>
+
+                      <div className="flex space-x-5 pt-2">
+                        <a
+                          href="https://git.joshseveros.cloud/RevelaNetwork"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-gray-300 hover:text-white transition"
+                        >
+                          Git Repository
+                        </a>
+
+                        <a
+                          href="https://revela.network"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-rose-400 hover:text-rose-300 transition"
+                        >
+                          Visit Project
+                        </a>
+                      </div>
+                    </div>
+
+                    {/* EQUINOX */}
+                    <div className="space-y-3">
+                      <h3 className="text-2xl font-bold">Project Equinox</h3>
+
+                      <p className="text-gray-400 text-justify">
+                        A next-generation Discord bot featuring advanced
+                        moderation tools, music, games, memes, weather data,
+                        IP lookups, and additional utilities.
+                      </p>
+
+                      <div className="flex space-x-5 pt-2">
+                        <a
+                          href="https://git.joshseveros.cloud/JoshS/Project-Equinox"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-gray-300 hover:text-white transition"
+                        >
+                          Git Repository
+                        </a>
+
+                        <a
+                          href="https://equinox.joshsevero.dev"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-rose-400 hover:text-rose-300 transition"
+                        >
+                          Visit Project
+                        </a>
+                      </div>
+                    </div>
+
+                  </div>
+                </section>
+
               </div>
             </motion.div>
           </div>
