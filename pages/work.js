@@ -45,29 +45,21 @@ export default function Work() {
                       </div>
 
                       <p className="text-gray-300 font-medium mb-3">
-                        Chief Networking Officer (CNO)
+                        Chief Networking Officer (COO)
                       </p>
 
                       <ul className="list-disc list-inside text-gray-400 space-y-1">
                         <li>
-                          Lead network architecture design including BGP
-                          routing, VPN infrastructure, and multi-WAN failover
+                          Direct high-level network architecture (BGP, VPN, failover) and manage infrastructure scalability to 
+                          ensure maximum uptime.
                         </li>
                         <li>
-                          Oversee infrastructure scalability, uptime monitoring,
-                          and performance optimization
+                          Govern firewall policies and orchestrate DDoS mitigation and incident response procedures to protect
+                          organizational assets.
                         </li>
                         <li>
-                          Implement firewall policies, traffic engineering
-                          strategies, and security controls
-                        </li>
-                        <li>
-                          Coordinate DDoS mitigation planning and incident
-                          response procedures
-                        </li>
-                        <li>
-                          Provide on-call operational support and oversee
-                          network reliability initiatives
+                          Manage network reliability initiatives and perform hands-on assembly, repair, and maintenance of
+                          physical server hardware.
                         </li>
                       </ul>
                     </div>
@@ -98,8 +90,8 @@ export default function Work() {
                           procurement, and deployment strategies
                         </li>
                         <li>
-                          Designed and implemented IPv4/IPv6 network
-                          architecture and routing policies
+                          Manage network reliability initiatives and perform hands-on assembly, repair, and maintenance of
+                          physical server hardware.
                         </li>
                         <li>
                           Established Service Level Agreements (SLAs), uptime
@@ -124,7 +116,7 @@ export default function Work() {
                   <div className="grid gap-12 grid-cols-1 md:grid-cols-2">
 
                     {/* REVELA */}
-                    <div className="space-y-3">
+                    {/* <div className="space-y-3">
                       <h3 className="text-2xl font-bold">Revela Network</h3>
 
                       <p className="text-gray-400 text-justify">
@@ -153,10 +145,10 @@ export default function Work() {
                           Visit Project
                         </a>
                       </div>
-                    </div>
+                    </div> */}
 
                     {/* EQUINOX */}
-                    <div className="space-y-3">
+                    {/* <div className="space-y-3">
                       <h3 className="text-2xl font-bold">Project Equinox</h3>
 
                       <p className="text-gray-400 text-justify">
@@ -184,7 +176,7 @@ export default function Work() {
                           Visit Project
                         </a>
                       </div>
-                    </div>
+                    </div> */}
 
                   </div>
                 </section>

@@ -25,12 +25,30 @@ const certifications = [
     links: [
       {
         label: "View Certificate",
-        href: "https://cdn.joshsevero.dev/Static/Portfolio/Certifications/CompTIA A+ ce certificate.pdf",
+        href: "https://cdn.joshsevero.dev/Static/Portfolio/Certifications/CompTIA_APlus.pdf",
         primary: true,
       },
       {
         label: "Verify Credential",
         href: "https://cp.certmetrics.com/CompTIA/en/public/verify/credential/e882994df5824910ba062e03f62b1320",
+      },
+    ],
+  },
+  {
+    title: "CompTIA Network+ Certified Professional",
+    description:
+      "Issued by CompTIA • Validates core networking skills including configuration, troubleshooting, security, and network infrastructure.",
+    skills:
+      "Network Fundamentals • IP Addressing (IPv4/IPv6) • Routing & Switching • Network Troubleshooting • Network Security • Wireless Networking • Network Protocols (TCP/IP, DNS, DHCP) • Subnetting • VPNs & Firewalls • Network Infrastructure",
+    links: [
+      {
+        label: "View Certificate",
+        href: "https://cdn.joshsevero.dev/Static/Portfolio/Certifications/CompTIA_NetworkPlus.pdf",
+        primary: true,
+      },
+      {
+        label: "Verify Credential",
+        href: "https://cp.certmetrics.com/CompTIA/en/public/verify/credential/89a2d93ff17344b8a89d82f5656f2e6e",
       },
     ],
   },
